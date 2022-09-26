@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TEMA 5 - FOMULARIS</title>
+    </head>
+    <body>
+        <header>
+            <nav></nav>
+        </header>
+
+        <main>
+            <!--FORMULARIS HTML5-->
+            <form action="./formulariEnviat.html" method="get">
+               <!--Text general (TEXT)-->
+                <label for="idNom">Nom: </label>
+                <input id="idNom" type="text" name="nom" required>
+                <br>
+                Cognom:<input type="text" name="cognom" placeholder="Antonio">
+                <!--Contraseña (password)-->
+                <br>
+                Contraseña:<input type="password" name="contrasena">
+                <br>
+                Correu: <input type="email" name="correu">
+                <br>
+                Fitxer: <input type="file" name="fitxer">
+                <br>
+                Telefon: <input type="tel" name="telefon">
+                <br>
+                Data: <input type="date" name="data">
+                <br>
+                Web: <input type="url" name="web">
+                <br>
+                Numero: <input type="number" name="numero">
+                <br>
+                Rang: <input type="range" name="rango">
+                <br>
+                <!-- Seleccio multiple (checkbox)-->
+                ASIX1: <input type="checkbox" name="asix1">
+                <br>
+                ASIX2: <input type="checkbox" name="asix2">
+                <br>
+                <!--Selecció unica (Radio)-->
+                ASIX: <input type="radio" name="curs" value="asix">
+                <br>
+                DAM: <input type="radio" name="curs" value="dam">
+                <br>
+                <select name="ciutat">
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Valencia">Valencia</option>
+                    <option value="Granada">Granada</option>
+                    <option value="Sevilla">Sevilla</option>
+                </select>
+                <br>
+                <textarea name="missatge" cols="30" rows="10"></textarea>
+                <!--Botó d'enviar (SUBMIT)-->
+                <input type="submit" value="Enviar Formulari">
+            </form>
+        </main>
+        
+        <footer>
+
+        </footer>
+    </body>
+</html>
